@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(/web/19981202230410im_/http://www.google.com/alpha.jpg);
+    margin: 8px;
+    display: block;
+
+}
+
+img {
+    width: 351px;
+    aspect-ratio: auto 351 / 113;
+    height: 113px;
+}
+
+center {
+    text-align: -webkit-center;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+
+
+
+td[bgcolor] {
+    background-color: rgb(238, 238, 238);
+}
+
+input:not([type="image" ]) {
+    box-sizing: border-box;
+}
+input[type="text" ] {
+    padding: 1px 2px;
+}
+input[type="submit"] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    color: -internal-light-dark(black, white);
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+td[width] {
+    width: 37%;
+    background-color: rgb(126, 229, 218);
+    text-decoration: underline;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    
+}
+
+font[size] {
+    font-size: small;
+}
+
+td[style] {
+    text-decoration: underline;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
